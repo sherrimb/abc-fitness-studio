@@ -28,3 +28,6 @@ waitForPort = 80
 [[ports]]
 localPort = 80
 externalPort = 80
+git add .
+git commit -m "Added Add to Cart buttons to gallery page"
+git push origin main
