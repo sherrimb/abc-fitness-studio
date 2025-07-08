@@ -11,34 +11,35 @@ body {
 
 /* HEADER */
 header {
-  background-color: #001F3F;
-  color: white;
-  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #001F3F;
+  color: white;
+  padding: 20px;
   flex-wrap: wrap;
 }
 
 .header-left {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .logo {
-  max-width: 80px;
+  max-width: 150px;
   height: auto;
+  display: block;
 }
 
 .site-name-stacked {
   display: flex;
   flex-direction: column;
-  font-weight: bold;
+  line-height: 1;
   font-size: 18px;
-  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  text-align: left;
   color: white;
-  line-height: 1.2;
 }
 
 nav {
