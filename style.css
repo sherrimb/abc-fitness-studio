@@ -7,16 +7,13 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #D3D3D3;
-  /* Wellness Gray */
-  color: #001F3F;
-  /* Nourish Navy */
+  background-color: #D3D3D3; /* Wellness Gray */
+  color: #001F3F; /* Nourish Navy */
   margin: 0;
 }
 
 header {
-  background-color: #001F3F;
-  /* Nourish Navy */
+  background-color: #001F3F; /* Nourish Navy */
   color: white;
   padding: 20px;
   text-align: center;
@@ -24,15 +21,13 @@ header {
 
 nav a {
   margin: 0 10px;
-  color: #D3D3D3;
-  /* Light gray links for contrast on dark background */
+  color: #D3D3D3; /* Light gray links for contrast on dark background */
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #634E99;
-  /* Pilates Purple */
+  color: #634E99; /* Pilates Purple */
 }
 
 main {
@@ -51,8 +46,7 @@ main {
 }
 
 button {
-  background-color: #155EBC;
-  /* Box Jump Blue */
+  background-color: #155EBC; /* Box Jump Blue */
   color: white;
   border: none;
   padding: 10px 15px;
@@ -63,8 +57,7 @@ button {
 }
 
 button:hover {
-  background-color: #20458E;
-  /* Bootcamp Blue */
+  background-color: #20458E; /* Bootcamp Blue */
 }
 
 .categories {
@@ -102,8 +95,13 @@ button:hover {
 }
 
 .product {
-  text-align: center;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .product img {
@@ -114,8 +112,7 @@ button:hover {
 }
 
 .product button {
-  background-color: #155EBC;
-  /* Box Jump Blue */
+  background-color: #155EBC; /* Box Jump Blue */
   color: white;
   border: none;
   padding: 10px 15px;
@@ -126,13 +123,11 @@ button:hover {
 }
 
 .product button:hover {
-  background-color: #20458E;
-  /* Bootcamp Blue */
+  background-color: #20458E; /* Bootcamp Blue */
 }
 
 footer {
-  background-color: #001F3F;
-  /* Nourish Navy */
+  background-color: #001F3F; /* Nourish Navy */
   color: white;
   padding: 15px;
   text-align: center;
@@ -140,7 +135,6 @@ footer {
 
 .socials a {
   margin: 0 10px;
-  color: #D3D3D3;
-  /* Light text for dark background */
+  color: #D3D3D3; /* Light text for dark background */
   text-decoration: none;
 }
