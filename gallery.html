@@ -9,7 +9,14 @@
 
 <body>
   <header>
-    <img src="images/logo.png" alt="ABC Fitness Logo" width="150" />
+    <div class="header-left">
+      <img src="images/logo.png" alt="ABC Fitness Logo" class="logo" />
+      <div class="site-name-stacked">
+        <span>ABC</span>
+        <span>Fitness</span>
+        <span>Studio</span>
+      </div>
+    </div>
     <nav>
       <a href="index.html">Home</a>
       <a href="gallery.html">Gallery</a>
@@ -34,32 +41,30 @@
     <!-- Product Store Section -->
     <h2>Shop Our Gear</h2>
     <section class="products">
-      <!-- Product 1 -->
-      <div class="product">
-        <img src="images/Client2_YogaMat.png" alt="Yoga Mat" />
-        <button>Add to Cart</button>
-      </div>
-
-      <!-- Product 2 -->
-      <div class="product">
-        <img src="images/Client2_WaterBottle.png" alt="Water Bottle" />
-        <button>Add to Cart</button>
-      </div>
-
-      <!-- Product 3 -->
-      <div class="product">
-        <img src="images/Client2_TeeShirt.png" alt="T-shirt" />
-        <button>Add to Cart</button>
+      <div class="product-row">
+        <div class="product">
+          <img src="images/Client2_YogaMat_Fixed.png" alt="Yoga Mat" />
+          <button>Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="images/Client2_WaterBottle.png" alt="Water Bottle" />
+          <button>Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="images/Client2_TeeShirt.png" alt="T-shirt" />
+          <button>Add to Cart</button>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
     <p>Hours: M–F: 6am–8pm | Sat: 8am–6pm</p>
-    <p>Contact: info@abcfitness.com</p>
+    <p>Contact: <a href="mailto:info@abcfitness.com">info@abcfitness.com</a></p>
     <div class="socials">
       <a href="#">Facebook</a>
       <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
     </div>
   </footer>
 </body>

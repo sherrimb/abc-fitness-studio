@@ -9,7 +9,14 @@
 
 <body>
   <header>
-    <img src="images/logo.png" alt="ABC Fitness Logo" class="logo" />
+    <div class="header-left">
+      <img src="images/logo.png" alt="ABC Fitness Logo" class="logo" />
+      <div class="site-name-stacked">
+        <span>ABC</span>
+        <span>Fitness</span>
+        <span>Studio</span>
+      </div>
+    </div>
     <nav>
       <a href="index.html">Home</a>
       <a href="gallery.html">Gallery</a>
@@ -30,18 +37,41 @@
 
       As we grow, we’re excited to launch a new website to extend our reach, simplify class bookings, and make it easier
       for our community to explore our offerings. Whether you’re just getting started or looking to level up your
-      routine, ABC Fitness Studio is here to help you move forward—body and mind..</p>
+      routine, ABC Fitness Studio is here to help you move forward—body and mind.</p>
+
     <img src="images/abcfitnessstaff.png" alt="Trainer Group" width="100%" />
     <h3>Meet the Staff</h3>
     <p>Our certified instructors bring years of experience and a passion for wellness.</p>
+
+    <hr>
+
+    <h3>We’d Love to Hear From You!</h3>
+    <p>Submit your feedback or let us know what kind of equipment you’re looking for:</p>
+
+    <form action="#" method="POST" class="feedback-form">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message or Feedback:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+      <label for="order">Custom Equipment Request:</label><br>
+      <input type="text" id="order" name="order" placeholder="e.g. 5 lb pink dumbbells, yoga block, etc."><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
   </main>
 
   <footer>
     <p>Hours: M–F: 6am–8pm | Sat: 8am–6pm</p>
-    <p>Contact: info@abcfitness.com</p>
+    <p>Contact: <a href="mailto:info@abcfitness.com">info@abcfitness.com</a></p>
     <div class="socials">
       <a href="#">Facebook</a>
       <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
     </div>
   </footer>
 </body>
