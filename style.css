@@ -138,3 +138,10 @@ footer {
   color: #D3D3D3; /* Light text for dark background */
   text-decoration: none;
 }
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
