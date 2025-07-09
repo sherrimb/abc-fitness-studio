@@ -41,20 +41,24 @@
 
     <!-- Product Store Section -->
     <h2>Shop Our Gear</h2>
-    <section class="products">
+    <section class="products" id="shop">
       <div class="product-row">
         <div class="product">
           <img src="images/Client2_YogaMat_Fixed.png" alt="Yoga Mat" />
-          <button>Add to Cart</button>
+          <button class="add-to-cart">Add to Cart</button>
         </div>
         <div class="product">
           <img src="images/Client2_WaterBottle.png" alt="Water Bottle" />
-          <button>Add to Cart</button>
+          <button class="add-to-cart">Add to Cart</button>
         </div>
         <div class="product">
           <img src="images/Client2_TeeShirt.png" alt="T-shirt" />
-          <button>Add to Cart</button>
+          <button class="add-to-cart">Add to Cart</button>
         </div>
+      </div>
+      <div style="margin-top: 20px;">
+        <button id="clear-cart">Clear Cart</button>
+        <button id="process-order">Process Order</button>
       </div>
     </section>
   </main>
@@ -67,7 +71,9 @@
       <a href="#">Instagram</a>
       <a href="#">TikTok</a>
     </div>
+    <button class="subscribe-btn">Subscribe</button>
   </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
