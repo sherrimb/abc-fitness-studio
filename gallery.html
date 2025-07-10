@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ABC Fitness Studio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABC Fitness Studio - Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-  <body>
-    <header>
-      <div class="header-left">
-        <img src="images/logo.png" alt="ABC Fitness Logo" class="logo" />
-        <div class="site-name-stacked">
-          <span>ABC</span>
-          <span>Fitness</span>
-          <span>Studio</span>
-        </div>
+<body>
+  <header>
+    <div class="header-left">
+      <img src="images/logo.png" alt="ABC Fitness Logo" class="logo" />
+      <div class="site-name-stacked">
+        <span>ABC</span>
+        <span>Fitness</span>
+        <span>Studio</span>
       </div>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="about.html">About Us</a>
-        <a href="schedule.html"><span class="nowrap">Schedule a Class</span></a>
-      </nav>
-    </header>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About Us</a>
+      <a href="schedule.html"><span class="nowrap">Schedule a Class</span></a>
+    </nav>
+  </header>
 
   <main>
     <h2>Explore Our Studio</h2>
@@ -45,23 +45,34 @@
       <div class="product-row">
         <div class="product">
           <img src="images/Client2_YogaMat_Fixed.png" alt="Yoga Mat" />
-          <button class="add-to-cart">Add to Cart</button>
+          <button class="add-to-cart" data-name="Yoga Mat" data-price="20">Add to Cart</button>
         </div>
         <div class="product">
           <img src="images/Client2_WaterBottle.png" alt="Water Bottle" />
-          <button class="add-to-cart">Add to Cart</button>
+          <button class="add-to-cart" data-name="Water Bottle" data-price="15">Add to Cart</button>
         </div>
         <div class="product">
           <img src="images/Client2_TeeShirt.png" alt="T-shirt" />
-          <button class="add-to-cart">Add to Cart</button>
+          <button class="add-to-cart" data-name="T-shirt" data-price="25">Add to Cart</button>
         </div>
       </div>
+
+      <!-- Cart Actions -->
       <div style="margin-top: 20px;">
+        <button id="view-cart">View Cart</button>
         <button id="clear-cart">Clear Cart</button>
         <button id="process-order">Process Order</button>
       </div>
     </section>
   </main>
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" style="display:none; position:fixed; top:20%; left:50%; transform:translateX(-50%);
+    background:white; padding:20px; border:2px solid #001F3F; z-index:1000; border-radius:10px; max-width:90%;">
+    <h3>Your Cart</h3>
+    <div id="cart-contents"></div>
+    <button id="close-cart">Close</button>
+  </div>
 
   <footer>
     <p>Hours: M–F: 6am–8pm | Sat: 8am–6pm</p>
@@ -73,7 +84,8 @@
     </div>
     <button class="subscribe-btn">Subscribe</button>
   </footer>
-    <script src="script.js"></script>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
