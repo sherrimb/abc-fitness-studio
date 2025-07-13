@@ -73,20 +73,21 @@ The ABC Fitness Studio website provides a user-friendly experience for anyone in
 
 ---
 
+
+
 ## 📸 Screenshots
 
-### Home Page
-![Home Page](screenshots/homepage.png)
+### 🏠 Homepage
+![Homepage](homepage.png)
 
-### Gallery Page & Cart
-![Gallery Page](screenshots/gallery.png)
+### 🖼️ Gallery Page
+![Gallery](gallery.png)
 
-### About Us & Contact Form
-![About Page](screenshots/about.png)
+### 📖 About Us Page
+![About Us](about.png)
 
-### Schedule Page
-![Schedule Page](screenshots/schedule.png)
-
+### 🗓️ Schedule a Class Page
+![Schedule](schedule.png)
 ---
 
 ## 👩‍💻 Created by
